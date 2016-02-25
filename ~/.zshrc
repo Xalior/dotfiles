@@ -87,11 +87,11 @@ export DOTFILES="/u/GIT/dotfiles"
 export DOTFILES_PRIVATE="/u/GIT/dotfiles.private"
 
 cd $DOTFILES
-echo "STATUS: $DOTFILES"
-git status --porcelain -bsv
+echo "STATUS: $DOTFILES" 
+git status --porcelain -bsv   # git@github.com:Xalior/dotfiles.git
 cd $DOTFILES_PRIVATE
-echo "STATUS: $DOTFILES"
-git status --porcelain -bsv
+echo "STATUS: $DOTFILES"    
+git status --porcelain -bsv   # git@bitbucket.org:Xalior/dotfiles.private.git
 cd ~
 
 export JAVA_HOME=`/usr/libexec/java_home`
